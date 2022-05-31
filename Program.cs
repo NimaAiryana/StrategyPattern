@@ -11,7 +11,7 @@ List<Dto> dtos = new();
 switch (type)
 {
     case Types.StrategyA:
-        dtos.Add(new StrategyB().Algorithm());
+        dtos.Add(new StrategyA().Algorithm());
         break;
 
     case Types.StrategyB:
